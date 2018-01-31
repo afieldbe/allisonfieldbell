@@ -336,6 +336,7 @@ img.author-photo {
   width: 180px;
   height: 240px;
   border: solid 10px #42DCA3;
+  margin-bottom: 10px;
 }
 @media (min-width: 768px) {
   img.author-photo {
