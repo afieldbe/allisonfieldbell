@@ -217,7 +217,7 @@ a:focus {
   }
 }
 .content-section {
-  padding-bottom: 100px;
+  padding: 60px 0 100px;
 }
 section.content-section ul {
   margin: 0;
@@ -257,10 +257,6 @@ section.content-section li {
   }
   .download-section {
     padding: 100px 0;
-  }
-  #map {
-    height: 400px;
-    margin-top: 250px;
   }
 }
 .awards-section h3,
@@ -336,14 +332,20 @@ span.publication {
   font-style: italic;
 }
 img.author-photo {
-  display: block;
-  float: left;
   border-radius: 50%;
   width: 180px;
   height: 240px;
   border: solid 10px #42DCA3;
-  margin: 0 20px 10px 0;
 }
-.about-section p {
-  text-align: left;
+@media (min-width: 768px) {
+  img.author-photo {
+    display: block;
+    float: left;
+    margin: 0 20px 10px 0;
+  }
+}
+@media (min-width: 768px) {
+  .about-section p {
+    text-align: left;
+  }
 }
