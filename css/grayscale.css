@@ -335,3 +335,15 @@ body {
 span.publication {
   font-style: italic;
 }
+img.author-photo {
+  display: block;
+  float: left;
+  border-radius: 50%;
+  width: 180px;
+  height: 240px;
+  border: solid 10px #42DCA3;
+  margin: 0 20px 10px 0;
+}
+.about-section p {
+  text-align: left;
+}
